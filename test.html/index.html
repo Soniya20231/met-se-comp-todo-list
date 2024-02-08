@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="box">
+        <section class="add">
+            <div>
+            <button id="btn">Add todo</button>
+            </div>
+        </section>
+        <section class="todo">
+            <div>
+            <h1>TODO</h1>
+            </div>
+        </section>
+        <section id="photo">
+            <img src="/images/photo.jpg" id="img">
+        </section>
+        <section class="blog">
+            <section class="min-sec">
+            <div class="input">
+                <h1>complete HTML Learning<i class="fa fa-exclamation-circle" aria-hidden="true"></i></h1>
+                <p>learn all HTML sematic tags, learn new article tag <i class="fa fa-trash" aria-hidden="true" id="icon" style="color: red;"></i></p>
+            </div>
+            <div class="input">
+                <h1>learn map() method<i class="fa fa-exclamation-circle" aria-hidden="true"></i></h1>
+                <p>learn how to implement map method in javascript<i class="fa fa-trash" aria-hidden="true" id="icon" style="color: red;"></i></p>
+            </div>
+            <div class="input">
+                <h1>Take notes<i class="fa fa-exclamation-circle" aria-hidden="true"></i></h1>
+                <p>Take notes regarding css fundamentals<i class="fa fa-trash" aria-hidden="true" id="icon" style="color: red;"></i></p>
+            </div>
+            <div class="input">
+                <h1>Water Plants<i class="fa fa-exclamation-circle" aria-hidden="true"></i></h1>
+                <p>warter all plants in garden<i class="fa fa-trash" aria-hidden="true" id="icon" style="color: red;"></i></p>
+            </div>
+        </section>
+
+        </section>
+    </main>
+    <main class="page d-none">
+        <section class="information">
+            <form>
+            <div class="inp">
+                <label for="name">todo name</label>
+                <br>
+                <input type="text" class="info">
+            </div>
+            <div class="inp">
+                <label for="name">description</label>
+                <br>
+                <textarea class="info" id="des" rows="6"></textarea>
+            </div>
+            <div class="inp" id="drop">
+                <label for="name">priority</label>
+                <select>
+                    <option>1.high priority</option>
+                    <option>2.low priority</option>
+                </select>
+                <br>
+                <input type="text" class="info">
+                
+            </div>
+            <div>
+                <section class="button">
+                    <button id="save" >save</button>
+                </section>
+            </div>
+        </form>
+        </section>
+        </main>
+    <script src="/java/test.js"></script>
+</body>
+</html>

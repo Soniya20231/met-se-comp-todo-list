@@ -1,0 +1,142 @@
+#photo{
+   
+    height: 30%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    
+}
+#img{
+    border: 2px solid;
+    height: 50vh;
+    width:100%;
+    align-items: center;
+    border-radius: 15px;
+}
+.blog{
+   
+    width: 50%;
+    height: 65vh;
+    border-radius: 15px;
+    justify-content:center;
+    align-items:end;
+    padding-top: 1rem;
+    position:absolute;
+    background-color: white;
+    box-shadow:2px 2px 20px gray;
+    top: 26%;
+
+
+
+}
+.box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0rem;
+
+}
+.input{
+    border-bottom: 2px solid grey;
+    padding-left: 2rem;
+}
+.todo{
+    width:1%;
+    position: absolute;
+    border: 2px black;
+    display: flex;
+    align-content:start;
+    padding-left:30rem;
+    color:white;
+    top:17%;
+    ;
+    
+}
+.add{
+    width:1.5%;
+    position: absolute;
+    border: 2px black;
+    display: flex;
+    align-content:start;
+    padding-right:34rem;
+    color:white;
+    top:20%;
+
+}
+#btn{
+    border-radius:15px;
+    background-color: blue;
+    color: white;
+    width:250%;
+    height:5vh;
+    
+}
+
+.information{
+    
+    height: 45vh;
+    width: 30%;
+    position: absolute;
+    display: flex;
+    border-radius: 15px;
+    padding-right: 4rem;
+    background-color:white;
+    bottom: 20%;
+    box-shadow: 2px 2px 20px gray;
+
+}
+.inp{
+    justify-content: center;
+    padding:0.5rem;
+    padding-left: 7rem;
+    align-items: center;
+    
+    
+    
+}
+.info{
+    height: 30px;
+    background-color: #C481FF;
+    border-radius:15px;
+    border :1px solid #367BF5;
+    width: 250px; 
+   
+    
+    
+}
+#save{
+    background-color:#367BF5;
+    padding: 0.2rem;
+    width: 50%;
+    border-radius: 15px;
+    border: none;
+    
+}
+#des{
+    height: 50px;
+
+}
+.button{
+    
+    padding-left:11rem;
+   padding-top:0.5rem;
+   
+}
+.page{
+    background-color: white;
+    bottom:20%;
+    padding-left: 35%;
+    top:0%;
+}
+
+.d-none{
+    display: none !important;
+}
+#icon{
+    
+    display: flex;
+    justify-content: end;
+    padding-right:1rem;
+}
+
